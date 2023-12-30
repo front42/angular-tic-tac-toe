@@ -1,0 +1,8 @@
+<p>Tic-Tac-Toe</p>
+<table>
+  <tr *ngFor="let row of [0, 1, 2]">
+    <td *ngFor="let col of [0, 1, 2]" (click)="marker($event)"></td>
+  </tr>
+</table>
+<p>{{ slogan }}</p>
+<button (click)="startAgain()">Start again</button>

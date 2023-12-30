@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background: url("./assets/blue-geometry-startpage_candy.jpg") no-repeat center top / cover fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.9rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffeeb5;
+  text-shadow: 0 0 5px #04456b;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+p {
+  margin: 1.81rem 0;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td {
+  width: 7rem;
+  height: 7rem;
+  border: 2px solid;
+  transition: 0.3s;
+}
+
+button {
+  display: block;
+  margin: -0.3rem auto 1.81rem;
+  width: 7rem;
+  height: 2.33rem;
+  color: #ffeeb5;
+  background-color: #04456b;
+  border: 2px solid;
+  cursor: pointer;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+td:hover,
+button:hover {
+  box-shadow: 0 0 15px 1px #ffeeb5;
+  text-shadow: 0 0 5px #ffeeb5;
+}
