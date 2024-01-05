@@ -4,8 +4,8 @@ just for testing PWA Angular-app.
 Use this link to enjoy:  
 ***https://front42.github.io/angular-tic-tac-toe/***  
 Sincerely, M¡ke.  
-<img src="https://rolling-scopes-school.github.io/front42-JSFE2021Q1/presentation/z/front42.jpg" alt="logo" width="109"/>  
-___  
+<img src="https://rolling-scopes-school.github.io/front42-JSFE2021Q1/presentation/z/front42.jpg" alt="logo" width="108"/>  
+***  
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.
 
 ## Development server
