@@ -1,0 +1,17 @@
+{
+  "name": "Tic-Tac-Toe",
+  "short_name": "Tic-Tac-Toe",
+  "theme_color": "#04456b",
+  "background_color": "#04456b",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "assets/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
