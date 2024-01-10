@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1704874692250,
+  "timestamp": 1704875063321,
   "index": "https://front42.github.io/angular-tic-tac-toe/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "https://front42.github.io/angular-tic-tac-toe/manifest.webmanifest",
         "https://front42.github.io/angular-tic-tac-toe/polyfills.cba38e330a3ad681.js",
         "https://front42.github.io/angular-tic-tac-toe/runtime.9f1b4c707084941f.js",
-        "https://front42.github.io/angular-tic-tac-toe/styles.9011307acdc956e3.css"
+        "https://front42.github.io/angular-tic-tac-toe/styles.2bbef94d7d975cf4.css"
       ],
       "patterns": []
     },
@@ -42,12 +42,12 @@
     "https://front42.github.io/angular-tic-tac-toe/assets/icons/icon-152x152.png": "dac7dc749bb21a4d5feb4f408995f41671df6864",
     "https://front42.github.io/angular-tic-tac-toe/blue-geometry-startpage_candy.88bb761c14e88c11.jpg": "e400542f97105c2383c724729e6007b58e3857c9",
     "https://front42.github.io/angular-tic-tac-toe/favicon.png": "fbaff03f62e65c2f38079d11ad7c3e0b95ddd998",
-    "https://front42.github.io/angular-tic-tac-toe/index.html": "11f54251f41f730570b0b18659d27ce64094043d",
+    "https://front42.github.io/angular-tic-tac-toe/index.html": "509d50e2e900b634f955828bd5e0d5496952c8c6",
     "https://front42.github.io/angular-tic-tac-toe/main.81183bac8c8011e5.js": "9083ad5cb23aa0e1167923ca77d1add8cbc929ab",
     "https://front42.github.io/angular-tic-tac-toe/manifest.webmanifest": "4c1fc93963355dd3a4535a0b988d5aefc7b4c6c8",
     "https://front42.github.io/angular-tic-tac-toe/polyfills.cba38e330a3ad681.js": "d19b5a6d9b4f32a60e78e7d8784ecd5c325af313",
     "https://front42.github.io/angular-tic-tac-toe/runtime.9f1b4c707084941f.js": "a7261a25f86161282701c60cffd790627ec6afb7",
-    "https://front42.github.io/angular-tic-tac-toe/styles.9011307acdc956e3.css": "1009ec1a4eb719cb11457dfbd8749cc5322e64fc"
+    "https://front42.github.io/angular-tic-tac-toe/styles.2bbef94d7d975cf4.css": "fa319a68b4ccfdba51d0e3d3b106bfe73569ab14"
   },
   "navigationUrls": [
     {
