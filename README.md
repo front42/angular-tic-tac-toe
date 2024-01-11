@@ -1,11 +1,11 @@
-# <img src="./src/favicon.png" alt="Tic_tac-Toe" width="16"/> angular-tic-tac-toe
+# <img src="./src/favicon.png" alt="Tic_tac-Toe" height="17"/>&#8239;angular-tic-tac-toe
 Thanks for your attention to this simple project -  
 just for testing PWA Angular-app.  
-Use this link to enjoy:  
-***https://front42.github.io/angular-tic-tac-toe/***  
-Sincerely, M¡ke.  
-<img src="https://rolling-scopes-school.github.io/front42-JSFE2021Q1/presentation/z/front42.jpg" alt="logo" width="108"/>  
-***  
+Click & enjoy:  
+***https://front42.github.io/angular-tic-tac-toe***  
+
+<img src="https://rolling-scopes-school.github.io/front42-JSFE2021Q1/presentation/z/front42.jpg" alt="logo" height="17"/>  
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.10.
 
 ## Development server

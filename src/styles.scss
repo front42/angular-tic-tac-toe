@@ -27,6 +27,10 @@ p {
   margin: 1.81rem 0;
 }
 
+.spacing {
+  word-spacing: 7px;
+}
+
 table {
   margin: 0 auto;
   border-collapse: collapse;
@@ -36,19 +40,20 @@ td {
   width: 7rem;
   height: 7rem;
   border: 2px solid;
-  transition: 0.3s;
+  transition: .3s;
 }
 
 button {
   display: block;
-  margin: -0.3rem auto 1.81rem;
+  margin: -.2rem auto 1.81rem;
   width: 7rem;
   height: 2.33rem;
+  font-size: 1rem;
   color: #ffeeb5;
   background-color: #04456b;
   border: 2px solid;
   cursor: pointer;
-  transition: 0.3s;
+  transition: .3s;
   pointer-events: none;
 }
 
@@ -56,4 +61,54 @@ td:hover,
 button:hover {
   box-shadow: 0 0 15px 1px #ffeeb5;
   text-shadow: 0 0 5px #ffeeb5;
+}
+
+@media screen and (max-width: 440px) {
+  body {
+    font-size: 4.49rem;
+  }
+
+  p {
+    margin: .9rem 0;
+  }
+
+  .spacing {
+    word-spacing: 8px;
+  }
+
+  td {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  button {
+    margin-bottom: 1.75rem;
+    width: 8rem;
+    font-size: 1.15rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  body {
+    font-size: 3.49rem;
+  }
+
+  p {
+    margin: .55rem 0;
+  }
+
+  .spacing {
+    word-spacing: 7px;
+  }
+
+  td {
+    width: 6.2rem;
+    height: 6.2rem;
+  }
+
+  button {
+    margin-bottom: 1.2rem;
+    width: 6.2rem;
+    font-size: .9rem;
+  }
 }

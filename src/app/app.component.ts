@@ -3,11 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
   counter = 0;
-  slogan = 'X go!';
+  slogan = 'Go X';
   button!: HTMLButtonElement;
   cells!: HTMLTableCellElement[];
 
@@ -22,17 +21,17 @@ export class AppComponent {
     targetCell.textContent = ['X', 'O'][this.counter++ % 2];
     targetCell.style.pointerEvents = 'none';
 
-    this.slogan = `${['X', 'O'][this.counter % 2]} is next!`;
+    this.slogan = `Next: ${['X', 'O'][this.counter % 2]}`;
 
     if (this.isWinner(this.cells)) {
       this.cells.forEach(cell => cell.style.pointerEvents = 'none');
-      this.slogan = `${targetCell.textContent} is the winner!`;
+      this.slogan = `Winner: ${targetCell.textContent}`;
     } else if (this.counter === 9) {
       this.cells.forEach(cell => {
         cell.style.pointerEvents = 'none';
         cell.style.backgroundColor = '#04456b';
       });
-      this.slogan = 'X & O are the winners!';
+      this.slogan = 'Win-Win!';
     }
   }
 
@@ -58,7 +57,7 @@ export class AppComponent {
 
   startAgain() {
     this.counter = 0;
-    this.slogan = 'X go!';
+    this.slogan = 'Go X';
     this.button.style.pointerEvents = 'none';
     this.cells.forEach(cell => {
       cell.textContent = '';
