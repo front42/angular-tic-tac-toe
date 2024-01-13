@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1705145256804,
+  "timestamp": 1705145836480,
   "index": "https://front42.github.io/angular-tic-tac-toe/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "https://front42.github.io/angular-tic-tac-toe/manifest.webmanifest",
         "https://front42.github.io/angular-tic-tac-toe/polyfills.cba38e330a3ad681.js",
         "https://front42.github.io/angular-tic-tac-toe/runtime.9f1b4c707084941f.js",
-        "https://front42.github.io/angular-tic-tac-toe/styles.24f145d11dcb5724.css"
+        "https://front42.github.io/angular-tic-tac-toe/styles.838f631da954762f.css"
       ],
       "patterns": []
     },
@@ -42,12 +42,12 @@
     "https://front42.github.io/angular-tic-tac-toe/assets/icons/icon-192x192.png": "76ae6c5a5c642491666f4649bc0e7a44f9fb9911",
     "https://front42.github.io/angular-tic-tac-toe/blue-geometry-startpage_candy.88bb761c14e88c11.jpg": "e400542f97105c2383c724729e6007b58e3857c9",
     "https://front42.github.io/angular-tic-tac-toe/favicon.png": "33af0df526b2a4a2cf2804d3da35b0d93aaea5b0",
-    "https://front42.github.io/angular-tic-tac-toe/index.html": "9d589b33c366194ddd13e01c260637f0a77219c7",
+    "https://front42.github.io/angular-tic-tac-toe/index.html": "9cc0accf7130d597429ea775ce35f42b2f7f4ca9",
     "https://front42.github.io/angular-tic-tac-toe/main.8182a3fecfd5bd37.js": "a5f3923198cb78fa4d5a0fc1825f67538f32a27b",
     "https://front42.github.io/angular-tic-tac-toe/manifest.webmanifest": "f936211d23f08b0bde15d8b0bbcf09b07708878f",
     "https://front42.github.io/angular-tic-tac-toe/polyfills.cba38e330a3ad681.js": "d19b5a6d9b4f32a60e78e7d8784ecd5c325af313",
     "https://front42.github.io/angular-tic-tac-toe/runtime.9f1b4c707084941f.js": "a7261a25f86161282701c60cffd790627ec6afb7",
-    "https://front42.github.io/angular-tic-tac-toe/styles.24f145d11dcb5724.css": "054a21b139dc8b703de91b187c9d833d7e39b66b"
+    "https://front42.github.io/angular-tic-tac-toe/styles.838f631da954762f.css": "523f724d2f255db6ebfb1ab78be8c93edb301d85"
   },
   "navigationUrls": [
     {
