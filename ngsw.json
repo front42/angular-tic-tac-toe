@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1705295718820,
+  "timestamp": 1705298865998,
   "index": "https://front42.github.io/angular-tic-tac-toe/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "https://front42.github.io/angular-tic-tac-toe/manifest.webmanifest",
         "https://front42.github.io/angular-tic-tac-toe/polyfills.cba38e330a3ad681.js",
         "https://front42.github.io/angular-tic-tac-toe/runtime.9f1b4c707084941f.js",
-        "https://front42.github.io/angular-tic-tac-toe/styles.9eeb95bbb0e5dc4c.css"
+        "https://front42.github.io/angular-tic-tac-toe/styles.ebe20c2027eba934.css"
       ],
       "patterns": []
     },
@@ -42,12 +42,12 @@
     "https://front42.github.io/angular-tic-tac-toe/assets/icons/icon-192x192.png": "e4438e7ebe17902f1583fa8bd55da9bf8f9e6efd",
     "https://front42.github.io/angular-tic-tac-toe/blue-geometry-startpage_candy.88bb761c14e88c11.jpg": "e400542f97105c2383c724729e6007b58e3857c9",
     "https://front42.github.io/angular-tic-tac-toe/favicon.png": "33af0df526b2a4a2cf2804d3da35b0d93aaea5b0",
-    "https://front42.github.io/angular-tic-tac-toe/index.html": "529e20f61dd20d7650cf1d90a6e4bf808fd5e8cd",
+    "https://front42.github.io/angular-tic-tac-toe/index.html": "859490eb27ded424bf4074370210dda4fa5c30f9",
     "https://front42.github.io/angular-tic-tac-toe/main.19bd2b19f03c7c62.js": "4513490a0d30e29e57e3cb273c3a753de31491b2",
     "https://front42.github.io/angular-tic-tac-toe/manifest.webmanifest": "f936211d23f08b0bde15d8b0bbcf09b07708878f",
     "https://front42.github.io/angular-tic-tac-toe/polyfills.cba38e330a3ad681.js": "d19b5a6d9b4f32a60e78e7d8784ecd5c325af313",
     "https://front42.github.io/angular-tic-tac-toe/runtime.9f1b4c707084941f.js": "a7261a25f86161282701c60cffd790627ec6afb7",
-    "https://front42.github.io/angular-tic-tac-toe/styles.9eeb95bbb0e5dc4c.css": "872f2122018b91d316d956f15f4ca06f49491014"
+    "https://front42.github.io/angular-tic-tac-toe/styles.ebe20c2027eba934.css": "12e8ae7d167ee1236093f87aadca5aaa781f6616"
   },
   "navigationUrls": [
     {
