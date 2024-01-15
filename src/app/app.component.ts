@@ -6,32 +6,31 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   counter = 0;
-  slogan = 'Go X';
-  button!: HTMLButtonElement;
+  slogan = 'Tic-Tac-Toe';
+  table!: HTMLTableElement;
   cells!: HTMLTableCellElement[];
+  button!: HTMLButtonElement;
 
   marker(event: MouseEvent) {
+    this.table = document.querySelector('table') as HTMLTableElement;
+    this.cells = document.querySelectorAll('td') as unknown as HTMLTableCellElement[];
     this.button = document.querySelector('button') as HTMLButtonElement;
     this.button.style.pointerEvents = 'auto';
 
-    this.cells = document.querySelectorAll('td') as unknown as HTMLTableCellElement[];
-
     const targetCell = event.target as HTMLTableCellElement;
-    if (targetCell.textContent || this.isWinner(this.cells)) return;
     targetCell.textContent = ['X', 'O'][this.counter++ % 2];
     targetCell.style.pointerEvents = 'none';
 
-    this.slogan = `Next: ${['X', 'O'][this.counter % 2]}`;
+    this.slogan = `Next ${['X', 'O'][this.counter % 2]}`;
 
     if (this.isWinner(this.cells)) {
       this.cells.forEach(cell => cell.style.pointerEvents = 'none');
-      this.slogan = `Winner: ${targetCell.textContent}`;
+      this.slogan = `Winner ${targetCell.textContent}`;
+      this.table.style.boxShadow = '0 0 15px 1px #ffeeb5';
     } else if (this.counter === 9) {
-      this.cells.forEach(cell => {
-        cell.style.pointerEvents = 'none';
-        cell.style.backgroundColor = '#04456b';
-      });
+      this.cells.forEach(cell => cell.style.backgroundColor = '#04456b');
       this.slogan = 'Win-Win!';
+      this.table.style.boxShadow = '0 0 15px 1px #ffeeb5';
     }
   }
 
@@ -57,7 +56,8 @@ export class AppComponent {
 
   startAgain() {
     this.counter = 0;
-    this.slogan = 'Go X';
+    this.slogan = 'Tic-Tac-Toe';
+    this.table.style.boxShadow = 'none';
     this.button.style.pointerEvents = 'none';
     this.cells.forEach(cell => {
       cell.textContent = '';

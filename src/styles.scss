@@ -8,7 +8,7 @@
 }
 
 body {
-  background: url("./assets/blue-geometry-startpage_candy.jpg") no-repeat center top / cover fixed;
+  background: url("./assets/blue-geometry-startpage_candy.jpg") no-repeat center top / cover;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3.9rem;
   font-weight: bold;
@@ -23,8 +23,17 @@ body {
   user-select: none;
 }
 
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 p {
-  margin: 1.81rem 0;
+  margin: 1.95rem 0;
+  line-height: .71;
 }
 
 .spacing {
@@ -32,7 +41,6 @@ p {
 }
 
 table {
-  margin: 0 auto;
   border-collapse: collapse;
 }
 
@@ -44,32 +52,65 @@ td {
 }
 
 button {
-  display: block;
-  margin: -.2rem auto 1.81rem;
+  margin: 1.95rem 0;
   width: 7rem;
-  height: 2.33rem;
-  font-size: 1rem;
+  height: 2.34rem;
+  font-size: 1.17rem;
   color: #ffeeb5;
   background-color: #04456b;
   border: 2px solid;
   cursor: pointer;
-  transition: .3s;
   pointer-events: none;
+  transition: .3s;
 }
 
-td:hover,
-button:hover {
-  box-shadow: 0 0 15px 1px #ffeeb5;
-  text-shadow: 0 0 5px #ffeeb5;
+@media (hover: hover) {
+  td:hover,
+  button:hover {
+    box-shadow: 0 0 15px 1px #ffeeb5;
+    text-shadow: 0 0 1px #ffeeb5;
+  }
+}
+
+td:active,
+button:active {
+  box-shadow: 0 0 20px 2px #ffeeb5;
+  text-shadow: 0 0 2px #ffeeb5;
 }
 
 @media screen and (max-width: 440px) {
+  body {
+    font-size: 4.78rem;
+  }
+
+  p {
+    margin: 2.39rem 0;
+  }
+
+  .spacing {
+    word-spacing: 9px;
+  }
+
+  td {
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+
+  button {
+    margin: 2.39rem 0;
+    width: 8.5rem;
+    height: 2.8rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
   body {
     font-size: 4.49rem;
   }
 
   p {
-    margin: .9rem 0;
+    margin: 2.24rem 0;
   }
 
   .spacing {
@@ -82,23 +123,102 @@ button:hover {
   }
 
   button {
-    margin-bottom: 1.75rem;
+    margin: 2.24rem 0;
     width: 8rem;
-    font-size: 1.15rem;
+    height: 2.67rem;
+    font-size: 1.33rem;
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 4.32rem;
+  }
+
+  p {
+    margin: 2.16rem 0;
+  }
+
+  .spacing {
+    word-spacing: 7px;
+  }
+
+  td {
+    width: 7.7rem;
+    height: 7.7rem;
+  }
+
+  button {
+    margin: 2.16rem 0;
+    width: 7.7rem;
+    height: 2.6rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  body {
+    font-size: 4.1rem;
+  }
+
+  p {
+    margin: 2rem 0;
+  }
+
+  .spacing {
+    word-spacing: 7px;
+  }
+
+  td {
+    width: 7.3rem;
+    height: 7.3rem;
+  }
+
+  button {
+    margin: 2rem 0;
+    width: 7.3rem;
+    height: 2.4rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  body {
+    font-size: 3.9rem;
+  }
+
+  p {
+    margin: 1.95rem 0;
+  }
+
+  .spacing {
+    word-spacing: 7px;
+  }
+
+  td {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  button {
+    margin: 1.95rem 0;
+    width: 7rem;
+    height: 2.34rem;
+    font-size: 1.17rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
   body {
     font-size: 3.49rem;
   }
 
   p {
-    margin: .55rem 0;
+    margin: 1.74rem 0;
   }
 
   .spacing {
-    word-spacing: 7px;
+    word-spacing: 6px;
   }
 
   td {
@@ -107,8 +227,9 @@ button:hover {
   }
 
   button {
-    margin-bottom: 1.2rem;
+    margin: 1.74rem 0;
     width: 6.2rem;
-    font-size: .9rem;
+    height: 2.1rem;
+    font-size: 1rem;
   }
 }
