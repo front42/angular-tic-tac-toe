@@ -1,9 +1,13 @@
 <div class="container">
-  <p [class.spacing]="slogan === 'Next X'">{{ slogan }}</p>
-  <table>
-    <tr *ngFor="let row of [0, 1, 2]">
-      <td *ngFor="let col of [0, 1, 2]" (click)="marker($event)"></td>
-    </tr>
+  <p [class.spacing]="slogan() === 'Next X'">{{ slogan() }}</p>
+  <table [class.lightning]="gameOver()">
+    @for (tr of [0, 1, 2]; track $index) {
+      <tr>
+        @for (td of [0, 1, 2]; track $index) {
+          <td #cell (click)="mark(cell)"></td>
+        }
+      </tr>
+    }
   </table>
-  <button (click)="startAgain()">Start again</button>
+  <button [class.disabled]="!counter()" (click)="reset()">Reset</button>
 </div>

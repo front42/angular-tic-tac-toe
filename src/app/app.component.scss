@@ -1,0 +1,215 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+p {
+  margin: 1.95rem 0;
+  line-height: 0.71;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 7rem;
+  height: 7rem;
+  border: 2px solid;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+button {
+  margin: 1.95rem 0;
+  width: 7rem;
+  height: 2.34rem;
+  font-size: 1.17rem;
+  color: #ffeeb5;
+  background-color: #04456b;
+  border: 2px solid;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.spacing {
+  word-spacing: 7px;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.winning {
+  background-color: #04456b;
+}
+
+.lightning {
+  box-shadow: 0 0 15px 1px #ffeeb5;
+  pointer-events: none;
+}
+
+@media (hover: hover) {
+  td:hover,
+  button:hover {
+    box-shadow: 0 0 15px 1px #ffeeb5;
+    text-shadow: 0 0 1px #ffeeb5;
+  }
+}
+
+td:active,
+button:active {
+  box-shadow: 0 0 20px 2px #ffeeb5;
+  text-shadow: 0 0 2px #ffeeb5;
+}
+
+@media screen and (max-width: 440px) {
+  .container {
+    font-size: 4.78rem;
+  }
+
+  p {
+    margin: 2.39rem 0;
+  }
+
+  td {
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+
+  button {
+    margin: 2.39rem 0;
+    width: 8.5rem;
+    height: 2.8rem;
+    font-size: 1.4rem;
+  }
+
+  .spacing {
+    word-spacing: 9px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    font-size: 4.49rem;
+  }
+
+  p {
+    margin: 2.24rem 0;
+  }
+
+  td {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  button {
+    margin: 2.24rem 0;
+    width: 8rem;
+    height: 2.67rem;
+    font-size: 1.33rem;
+  }
+
+  .spacing {
+    word-spacing: 8px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    font-size: 4.32rem;
+  }
+
+  p {
+    margin: 2.16rem 0;
+  }
+
+  td {
+    width: 7.7rem;
+    height: 7.7rem;
+  }
+
+  button {
+    margin: 2.16rem 0;
+    width: 7.7rem;
+    height: 2.6rem;
+    font-size: 1.3rem;
+  }
+
+  .spacing {
+    word-spacing: 7px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .container {
+    font-size: 4.1rem;
+  }
+
+  p {
+    margin: 2rem 0;
+  }
+
+  td {
+    width: 7.3rem;
+    height: 7.3rem;
+  }
+
+  button {
+    margin: 2rem 0;
+    width: 7.3rem;
+    height: 2.4rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .container {
+    font-size: 3.9rem;
+  }
+
+  p {
+    margin: 1.95rem 0;
+  }
+
+  td {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  button {
+    margin: 1.95rem 0;
+    width: 7rem;
+    height: 2.34rem;
+    font-size: 1.17rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .container {
+    font-size: 3.49rem;
+  }
+
+  p {
+    margin: 1.74rem 0;
+  }
+
+  td {
+    width: 6.2rem;
+    height: 6.2rem;
+  }
+
+  button {
+    margin: 1.74rem 0;
+    width: 6.2rem;
+    height: 2.1rem;
+    font-size: 1rem;
+  }
+
+  .spacing {
+    word-spacing: 6px;
+  }
+}
