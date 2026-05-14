@@ -1,3 +1,8 @@
+:root {
+  --light-color: #ffeeb5;
+  --dark-color: #04456b;
+}
+
 *,
 *::before,
 *::after {
@@ -13,8 +18,8 @@ body {
   font-size: 3.9rem;
   font-weight: bold;
   text-align: center;
-  color: #ffeeb5;
-  text-shadow: 0 0 5px #04456b;
+  color: var(--light-color);
+  text-shadow: 0 0 5px var(--dark-color);
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;

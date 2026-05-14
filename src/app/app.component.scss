@@ -28,8 +28,8 @@ button {
   width: 7rem;
   height: 2.34rem;
   font-size: 1.17rem;
-  color: #ffeeb5;
-  background-color: #04456b;
+  color: var(--light-color);
+  background-color: var(--dark-color);
   border: 2px solid;
   transition: 0.3s;
   cursor: pointer;
@@ -44,26 +44,26 @@ button {
 }
 
 .winning {
-  background-color: #04456b;
+  background-color: var(--dark-color);
 }
 
 .lightning {
-  box-shadow: 0 0 15px 1px #ffeeb5;
+  box-shadow: 0 0 15px 1px var(--light-color);
   pointer-events: none;
 }
 
 @media (hover: hover) {
   td:hover,
   button:hover {
-    box-shadow: 0 0 15px 1px #ffeeb5;
-    text-shadow: 0 0 1px #ffeeb5;
+    box-shadow: 0 0 15px 1px var(--light-color);
+    text-shadow: 0 0 1px var(--light-color);
   }
 }
 
 td:active,
 button:active {
-  box-shadow: 0 0 20px 2px #ffeeb5;
-  text-shadow: 0 0 2px #ffeeb5;
+  box-shadow: 0 0 20px 2px var(--light-color);
+  text-shadow: 0 0 2px var(--light-color);
 }
 
 @media screen and (max-width: 440px) {
