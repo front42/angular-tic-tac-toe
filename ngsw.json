@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1752423124640,
+  "timestamp": 1778793699131,
   "index": "https://front42.github.io/angular-tic-tac-toe/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "https://front42.github.io/angular-tic-tac-toe/favicon.png",
         "https://front42.github.io/angular-tic-tac-toe/index.html",
-        "https://front42.github.io/angular-tic-tac-toe/main.b27a9eab6fea640a.js",
+        "https://front42.github.io/angular-tic-tac-toe/main.5ec30ee70ea78571.js",
         "https://front42.github.io/angular-tic-tac-toe/manifest.webmanifest",
         "https://front42.github.io/angular-tic-tac-toe/polyfills.877f277fd5a967c0.js",
         "https://front42.github.io/angular-tic-tac-toe/runtime.a8e43185a9a7f760.js",
-        "https://front42.github.io/angular-tic-tac-toe/styles.5dac006293c89e05.css"
+        "https://front42.github.io/angular-tic-tac-toe/styles.d3ae3ddc1a5a1c98.css"
       ],
       "patterns": []
     },
@@ -30,6 +30,7 @@
       },
       "urls": [
         "https://front42.github.io/angular-tic-tac-toe/assets/blue-geometry-startpage_candy.jpg",
+        "https://front42.github.io/angular-tic-tac-toe/assets/front42.jpg",
         "https://front42.github.io/angular-tic-tac-toe/assets/icons/icon-192x192.png",
         "https://front42.github.io/angular-tic-tac-toe/blue-geometry-startpage_candy.88bb761c14e88c11.jpg"
       ],
@@ -39,15 +40,16 @@
   "dataGroups": [],
   "hashTable": {
     "https://front42.github.io/angular-tic-tac-toe/assets/blue-geometry-startpage_candy.jpg": "e400542f97105c2383c724729e6007b58e3857c9",
+    "https://front42.github.io/angular-tic-tac-toe/assets/front42.jpg": "eb98207fe74e6cab60e4634fe6595eadd8f1bcfa",
     "https://front42.github.io/angular-tic-tac-toe/assets/icons/icon-192x192.png": "e4438e7ebe17902f1583fa8bd55da9bf8f9e6efd",
     "https://front42.github.io/angular-tic-tac-toe/blue-geometry-startpage_candy.88bb761c14e88c11.jpg": "e400542f97105c2383c724729e6007b58e3857c9",
     "https://front42.github.io/angular-tic-tac-toe/favicon.png": "33af0df526b2a4a2cf2804d3da35b0d93aaea5b0",
-    "https://front42.github.io/angular-tic-tac-toe/index.html": "9dd956614b28650651a7987d049b3a5702457779",
-    "https://front42.github.io/angular-tic-tac-toe/main.b27a9eab6fea640a.js": "0c80d774d2b1166862d33a4aca8d4b04f6dd693b",
+    "https://front42.github.io/angular-tic-tac-toe/index.html": "da64a88cd09740c5e9376f8d572cd48fbf342df2",
+    "https://front42.github.io/angular-tic-tac-toe/main.5ec30ee70ea78571.js": "690337bf7cb559fa3846497813b130e38b07d924",
     "https://front42.github.io/angular-tic-tac-toe/manifest.webmanifest": "9303f2727b617e54f25c444879db5ad2476424db",
     "https://front42.github.io/angular-tic-tac-toe/polyfills.877f277fd5a967c0.js": "bd1daae108c8f159bec12d6783e68211ae9bca5e",
     "https://front42.github.io/angular-tic-tac-toe/runtime.a8e43185a9a7f760.js": "e0c7ccd9a6461ed185fac85b30d5b16a180cb9ea",
-    "https://front42.github.io/angular-tic-tac-toe/styles.5dac006293c89e05.css": "1b8b5fc2ff81eaf873eee02621bcd3db02b9201c"
+    "https://front42.github.io/angular-tic-tac-toe/styles.d3ae3ddc1a5a1c98.css": "55dbd480c5d91dbf58d703e13f0beec62ecc425d"
   },
   "navigationUrls": [
     {
